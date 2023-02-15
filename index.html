@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Chat</title>
+    <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> -->
+    <link rel="icon" type="image/x-icon" href="/logo2.png">
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="/logo.png" alt="">
+        <h2>WhatsApp Chat</h2>
+    </nav>
+    <div class="container">
+        <!-- <div class="message right">Prem: Hii</div> -->
+        <!-- <div class="message left">Rohan: Hii</div> -->
+    </div> 
+    <div class="send">
+        <form action="#" id="send-container">
+            <i class="fas fa-link"></i>
+            <i class="far fa-smile"></i>
+            <input type="text" name="messageInp" id="messageInp" required>
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/9f0e1fb6a2.js" crossorigin="anonymous"></script>
+</html>
